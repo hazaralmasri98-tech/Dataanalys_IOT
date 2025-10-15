@@ -19,15 +19,15 @@ Programmet är gjort för uppgiften *“Datainsamlare och analysverktyg för mä
 - Körs i konsolen med en enkel meny  
 
 # Så kör du programmet
-   g++ -std=c++17 -o Dataanalys_IOT Dataanalys_IOT.cpp
-   ./Dataanalys_IOT
-
-   eller 
-   
- Visual Studio (rekommenderas)
+  Visual Studio 
 1. Öppna projektet i Visual Studio.  
 2. Tryck Ctrl + Shift + B för att bygga programmet.  
 3. Tryck F5 för att köra det.
+   elller
+   g++ -std=c++17 -o Dataanalys_IOT Dataanalys_IOT.cpp
+   ./Dataanalys_IOT
+
+
 
 # Avslutning
 
