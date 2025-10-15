@@ -1,7 +1,7 @@
 # Dataanalys_IOT
 
 Ett C++-program som samlar in och analyserar mätvärden, till exempel temperaturer.  
-Programmet är gjort som en del av uppgiften *“Datainsamlare och analysverktyg för mätvärden”*.
+Programmet är gjort för uppgiften *“Datainsamlare och analysverktyg för mätvärden”*.
 
 # Funktioner
 - Lägg till egna temperaturvärden manuellt  
