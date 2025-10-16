@@ -26,11 +26,64 @@ Programmet är gjort för uppgiften *“Datainsamlare och analysverktyg för mä
    elller
    g++ -std=c++17 -o Dataanalys_IOT Dataanalys_IOT.cpp
    ./Dataanalys_IOT
+   
+# Användning
 
+Vid start visas menyn:
+Välkommen till Dataanalys_ IOT program!
 
+--- Meny ---
+1. Lägg till temperatur
+2. Visa statistik
+3. Sök värde
+4. Sortera lista
+5. Simulera sensor
+6. Avsluta
+Välj (1-6):
+
+Välj ett alternativ (1–6) och följ instruktionerna i konsolen.
+
+# Exempel på körning
+Välkommen till Dataanalys_ IOT program!
+
+--- Meny ---
+1. Lägg till temperatur
+2. Visa statistik
+3. Sök värde
+4. Sortera lista
+5. Simulera sensor
+6. Avsluta
+Välj (1-6): 5
+Hur många slumpmässiga värden vill du simulera (10-30 °C)? 5
+Temperaturvärden:
+Simulerat värde 1: 17.3 °C
+Simulerat värde 2: 22.1 °C
+Simulerat värde 3: 28.6 °C
+Simulerat värde 4: 19.4 °C
+Simulerat värde 5: 25.0 °C
+Simulering klar! 5 värden tillagda.
+
+Välj (1-6): 2
+--- Statistik ---
+Antal temperatur: 5
+Summa: 112.40
+Medelvärde: 22.48
+Min-värde: 17.30
+Max-värde: 28.60
+Varians: 14.53
+Standardavvikelse: 3.81
+
+Ange en tröskelvärde (t.ex. 25 °C): 25
+Antal värden över 25.00: 1
+Antal värden under 25.00: 4
+
+# Projektstruktur
+.
+├── Dataanalys_IOT.cpp   # Huvudprogram med meny och alla funktioner
+└── README.md            # Denna fil
 
 # Avslutning
 
-Tack för att du har tittat på mitt program!
+Tack för att du har tittat på mitt program! 
 Din feedback är alltid välkommen. 😊
 
