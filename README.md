@@ -16,7 +16,10 @@ Programmet är gjort för uppgiften *“Datainsamlare och analysverktyg för mä
 - Använder std::vector  för att lagra data  
 - Uppdelat i flera tydliga funktioner för läsbarhet  
 - Felhantering vid ogiltig inmatning  
-- Körs i konsolen med en enkel meny  
+- Körs i konsolen med en enkel meny
+
+  ## Länk till GitHub-repo
+ Klicka här för att öppna projektet på GitHub (https://github.com/hazaralmasri98-tech/Dataanalys_IOT.git)
 
 # Så kör du programmet
   Visual Studio 
